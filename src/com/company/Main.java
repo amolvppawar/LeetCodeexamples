@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.*;
 
-public class Main {
+public class Main  {
     public static boolean isValid(String s) {
         Stack<Character> st= new Stack<>();
         int i;
@@ -60,4 +60,6 @@ public class Main {
             System.out.println("Invalid");
         }
     }
+
+
 }
